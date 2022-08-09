@@ -758,6 +758,6 @@ Cache.Connections.OnTp = Player.OnTeleport:Connect(function(state)
             Nametags = Cache.Enabled.Nametags,
             AimVisCheck = Cache.Enabled.AimVisCheck,
             ESPVisCheck = Cache.Enabled.ESPVisCheck,
-        }) .."'\ntask.wait(5)\nloadstring(game:HttpGet(\"https://raw.githubusercontent.com/zachisfunny/Rift-royale-script/main/Script"))()")
+        }) .."'\ntask.wait(5)\nloadstring(game:HttpGet(\"https://gist.githubusercontent.com/DeveloperMikey/0787e77a45d5f1f9a5de709d71ff2f25/raw/rift.lua\"))()")
     end
 end)
