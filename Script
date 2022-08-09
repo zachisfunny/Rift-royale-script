@@ -155,8 +155,8 @@ local function ConstructUI()
     Cache.UI.MainFrameBorder.Transparency = 0.7
     Cache.UI.MainFrameBorder.Filled = false
     Cache.UI.MainFrameBorder.Color = Color3.new(0, 0, 0)
-    Cache.UI.MainFrameBorder.Size = Vector2.new(Camera.ViewportSize.X/8, Camera.ViewportSize.Y/2-200)
-    Cache.UI.MainFrameBorder.Position = Vector2.new(-2, Camera.ViewportSize.Y/2-198)
+    Cache.UI.MainFrameBorder.Size = Vector2.new(Camera.ViewportSize.X/8, Camera.ViewportSize.Y/2-198)
+    Cache.UI.MainFrameBorder.Position = Vector2.new(-2, Camera.ViewportSize.Y/2-200)
     Cache.UI.MainFrameBorder.Thickness = 2
 
     for i = 1, 19 do
