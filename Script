@@ -112,7 +112,7 @@ local function ConstructUI()
     Cache.UI.MainFrame.Transparency = 0.6
     Cache.UI.MainFrame.Filled = true
     Cache.UI.MainFrame.Color = Color3.new(0.156862, 0.125490, 0.125490)
-    Cache.UI.MainFrame.Size = Vector2.new(Camera.ViewportSize.X/8-3, Camera.ViewportSize.Y/2-200)
+    Cache.UI.MainFrame.Size = Vector2.new(Camera.ViewportSize.X/8-3, Camera.ViewportSize.Y/2-198)
     Cache.UI.MainFrame.Position = Vector2.new(0, Camera.ViewportSize.Y/2-200)
 
     Cache.UI.MainFrameTextFrame = Drawing.new("Square")
@@ -125,7 +125,7 @@ local function ConstructUI()
 
     Cache.UI.MainFrameText = Drawing.new("Text")
     Cache.UI.MainFrameText.Visible = true
-    Cache.UI.MainFrameText.Text = "Rift Royale Script"
+    Cache.UI.MainFrameText.Text = "Rift Royale"
     Cache.UI.MainFrameText.Size = textsize
     Cache.UI.MainFrameText.Position = Vector2.new(0, Camera.ViewportSize.Y/2-200)
     Cache.UI.MainFrameText.Color = Color3.new(0.878431, 0.878431, 0.878431)
@@ -134,7 +134,7 @@ local function ConstructUI()
 
     Cache.UI.Credits = Drawing.new("Text")
     Cache.UI.Credits.Visible = true
-    Cache.UI.Credits.Text = ""
+    Cache.UI.Credits.Text = "Edited by ZACH.#6257"
     Cache.UI.Credits.Size = textsize
     Cache.UI.Credits.Position = Vector2.new(1, Camera.ViewportSize.Y/2-200 - ((Camera.ViewportSize.Y/2-200)/20)*2)
     Cache.UI.Credits.Color = Color3.new(0.878431, 0.878431, 0.878431)
@@ -143,7 +143,7 @@ local function ConstructUI()
 
     Cache.UI.Credits2 = Drawing.new("Text")
     Cache.UI.Credits2.Visible = true
-    Cache.UI.Credits2.Text = ""
+    Cache.UI.Credits2.Text = "discord.gg/b8VCSEKr2R"
     Cache.UI.Credits2.Size = textsize
     Cache.UI.Credits2.Position = Vector2.new(1, Camera.ViewportSize.Y/2-200 - (Camera.ViewportSize.Y/2-200)/20)
     Cache.UI.Credits2.Color = Color3.new(0.878431, 0.878431, 0.878431)
@@ -152,11 +152,11 @@ local function ConstructUI()
 
     Cache.UI.MainFrameBorder = Drawing.new("Square")
     Cache.UI.MainFrameBorder.Visible = true
-    Cache.UI.MainFrameBorder.Transparency = 0.6
+    Cache.UI.MainFrameBorder.Transparency = 0.7
     Cache.UI.MainFrameBorder.Filled = false
     Cache.UI.MainFrameBorder.Color = Color3.new(0, 0, 0)
     Cache.UI.MainFrameBorder.Size = Vector2.new(Camera.ViewportSize.X/8, Camera.ViewportSize.Y/2-200)
-    Cache.UI.MainFrameBorder.Position = Vector2.new(-2, Camera.ViewportSize.Y/2-202)
+    Cache.UI.MainFrameBorder.Position = Vector2.new(-2, Camera.ViewportSize.Y/2-198)
     Cache.UI.MainFrameBorder.Thickness = 2
 
     for i = 1, 19 do
@@ -758,6 +758,6 @@ Cache.Connections.OnTp = Player.OnTeleport:Connect(function(state)
             Nametags = Cache.Enabled.Nametags,
             AimVisCheck = Cache.Enabled.AimVisCheck,
             ESPVisCheck = Cache.Enabled.ESPVisCheck,
-        }) .."'\ntask.wait(5)\nloadstring(game:HttpGet(\"https://raw.githubusercontent.com/zachisfunny/Rift-royale-script/main/Script"))()")
+        }) .."'\ntask.wait(5)\nloadstring(game:HttpGet(\"https://gist.githubusercontent.com/DeveloperMikey/0787e77a45d5f1f9a5de709d71ff2f25/raw/rift.lua\"))()")
     end
 end)
